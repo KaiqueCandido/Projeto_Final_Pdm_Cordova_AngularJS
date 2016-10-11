@@ -1,0 +1,34 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        },
+        "com.subitolabs.android.cordova.galleryapi": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        },
+        "org.devgeeks.Canvas2ImagePlugin": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "io.cordova.boilerplatecordova"
+        }
+    }
+}

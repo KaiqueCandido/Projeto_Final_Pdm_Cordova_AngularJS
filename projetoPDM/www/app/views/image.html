@@ -1,0 +1,23 @@
+<ons-navigator var="myNavigator">
+  <ons-page>
+    <div class="bar bar-header">
+      <a href="#/" class="button icon-left ion-chevron-left button-clear button-dark">Voltar</a>  
+      <div class="h1 title">Minha Galeria</div>     
+    </div>     
+
+    <br/>
+    <br/>
+
+    <img ng-src="{{media.data}}" width="100%"/>
+    <ons-list>
+      <ons-list-header>Informações</ons-list-header>      
+      <ons-list-item>Titulo: {{media.title}}</ons-list-item>            
+      <ons-list-item>Largura: {{media.width}}</ons-list-item>
+      <ons-list-item>Altura: {{media.height}}</ons-list-item>
+      <ons-list-item>Tamanho em disco: {{(media.size / 1048576).toFixed(2)}}mb</ons-list-item>
+      <ons-list-item>Local: {{media.data}}</ons-list-item>      
+      <ons-list-item>ID: {{media.id}}</ons-list-item>
+    <ons-list>
+    <br/>
+  </ons-page>
+</ons-navigator>

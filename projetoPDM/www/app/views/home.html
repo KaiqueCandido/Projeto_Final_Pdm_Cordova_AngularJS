@@ -1,0 +1,28 @@
+<ons-navigator var="myNavigator">
+  <ons-page>
+
+  	<div class="bar bar-header">
+		<button class="button button-icon icon">{{images.length - 1}}</button>		
+    	<div class="h1 title">Minha Galeria</div>    	
+	</div> 
+
+    <br/>
+    <br/>
+
+    <div class="row responsive-sm">
+    	<div class="col">
+    		<a ng-repeat="image in images" href="#/image/{{image.title}}" class="image">
+        		<img ng-src="{{image.data}}" width="45%">		
+        	</a>
+    	</div>                     
+    </div>    
+
+  </ons-page>
+
+	<div class="bar bar-footer">
+  		<div class="button-bar">  			
+  			<a href="#/photo" class="button button-clear button-positive">Tirar Foto</a>  		
+		</div>
+	</div>
+
+</ons-navigator>
